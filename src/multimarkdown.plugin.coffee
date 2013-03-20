@@ -1,17 +1,12 @@
 # Export Plugin
 module.exports = (BasePlugin) ->
 	# Define Plugin
-	class MarkedPlugin extends BasePlugin
+	class MultimarkdownPlugin extends BasePlugin
 		# Plugin name
-		name: 'marked'
+		name: 'multimarkdown'
 
 		# Plugin configuration
-		config:
-			markedOptions:
-				pedantic: false
-				gfm: true
-				sanitize: false
-				highlight: null
+		
 
 		# Render some content
 		render: (opts,next) ->
@@ -22,11 +17,10 @@ module.exports = (BasePlugin) ->
 			# Check our extensions
 			if inExtension in ['md','markdown'] and outExtension in [null,'html']
 				# Requires
-				marked = require('marked')
-				marked.setOptions(config.markedOptions)
+				multimarkdown = require('multimarkdown')
 
 				# Render
-				opts.content = marked(opts.content)
+				opts.content = multimarkdown.concert(opts.content)
 
 			# Done
 			next()

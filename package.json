@@ -1,41 +1,38 @@
 {
-	"name": "docpad-plugin-marked",
-	"version": "2.1.1",
-	"description": "Markdown rendering for DocPad, using Marked",
-	"homepage": "http://docpad.org/plugin/marked",
-	"keywords": [
-		"docpad",
-		"docpad-plugin",
-		"markup",
-		"markdown"
-	],
-	"author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
-	"maintainers": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
-	],
-	"contributors": [
-		"Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)",
-		"Chase Colman <chase@infinityatlas.com> (https://github.com/chase)"
-	],
-	"bugs": {
-		"url": "https://github.com/docpad/docpad-plugin-marked/issues"
-	},
-	"repository" : {
-		"type": "git",
-		"url": "https://github.com/docpad/docpad-plugin-marked.git"
-	},
+	"name": "docpad-plugin-multimarkdown",
+	"version": "2.0.0",
+	"description": "MultiMarkdown rendering for DocPad, using node-multimarkdown",
+	"homepage": "https://github.com/takitapart/docpad-plugin-multimarkdown",
+    "keywords": [
+        "docpad",
+        "docpad-plugin"
+    ],
+    "author": "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)",
+    "maintainers": [
+        "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)"
+    ],
+    "contributors": [
+        "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)"
+    ],
+    "bugs": {
+        "url": "https://github.com/takitapart/docpad-plugin-multimarkdown/issues"
+    },
+    "repository" : {
+        "type": "git",
+        "url": "http://github.com/takitapart/docpad-plugin-multimarkdown.git"
+    },
 	"engines" : {
 		"node": ">=0.4",
 		"docpad": "6.x"
 	},
 	"dependencies": {
-        "marked": "~0.2.8"
+        "multimarkdown": "~0.0.8"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.4.0"
 	},
-	"main": "./out/marked.plugin.js",
+	"main": "./out/multimarkdown.plugin.js",
 	"scripts": {
-		"test": "node ./out/marked.test.js"
+		"test": "node ./out/multimarkdown.test.js"
 	}
 }
