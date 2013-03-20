@@ -6,7 +6,7 @@ module.exports = (BasePlugin) ->
 		name: 'multimarkdown'
 
 		# Plugin configuration
-		
+
 
 		# Render some content
 		render: (opts,next) ->
@@ -20,7 +20,7 @@ module.exports = (BasePlugin) ->
 				multimarkdown = require('multimarkdown')
 
 				# Render
-				opts.content = multimarkdown.concert(opts.content)
+				opts.content = multimarkdown.convert(opts.content)
 
 			# Done
 			next()
