@@ -1,18 +1,22 @@
 {
 	"name": "docpad-plugin-multimarkdown",
-	"version": "2.0.0",
+	"version": "2.0.2",
 	"description": "MultiMarkdown rendering for DocPad, using node-multimarkdown",
 	"homepage": "https://github.com/takitapart/docpad-plugin-multimarkdown",
     "keywords": [
         "docpad",
-        "docpad-plugin"
+        "docpad-plugin",
+        "language",
+        "markup",
+        "multimarkdown"
     ],
     "author": "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)",
     "maintainers": [
         "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)"
     ],
     "contributors": [
-        "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)"
+        "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)",
+        "Eduán Lávaque <eduanlavaque+git@gmail.com> (https://github.com/Greduan)"
     ],
     "bugs": {
         "url": "https://github.com/takitapart/docpad-plugin-multimarkdown/issues"
@@ -26,10 +30,10 @@
 		"docpad": "6.x"
 	},
 	"dependencies": {
-        "multimarkdown": "~0.0.8"
+        "multimarkdown": "~0.0.x"
 	},
 	"devDependencies": {
-		"coffee-script": "~1.4.0"
+		"coffee-script": "~1.6.x"
 	},
 	"main": "./out/multimarkdown.plugin.js",
 	"scripts": {
