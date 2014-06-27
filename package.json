@@ -30,7 +30,7 @@
 		"docpad": "6.x"
 	},
 	"dependencies": {
-        "multimarkdown": "~0.0.x"
+        "mmd": "~4.4.x"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.6.x"

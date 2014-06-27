@@ -1,17 +1,21 @@
 # MultiMarkdown Plugin for DocPad
-[MultiMarkdown](http://fletcherpenney.net/multimarkdown/) rendering for [DocPad](https://docpad.org), using [node-multimarkdown](https://github.com/dtjm/node-multimarkdown)
+[MultiMarkdown](http://fletcherpenney.net/multimarkdown/) rendering for [DocPad](https://docpad.org), using [node-mmd](https://github.com/mnichols/node-mmd)
 
 forked from [docpad/docpad-plugin-marked](https://github.com/docpad/docpad-plugin-marked)
 
 Convention:  `.html.md|markdown`
 
 
-## Install
+## Installation
+
+Install the module via _npm_:
 
 ```
 npm install --save docpad-plugin-multimarkdown
 ```
 
-## History
-You can discover the history inside the `History.md` file
+**Note:** When installing on some platforms, it may be necessary to compile MultiMarkdown with the -fPIC flag. If the above command fails, try the following command instead:
+
+    CFLAGS=-fPIC npm install --save docpad-plugin-multimarkdown
+
 
