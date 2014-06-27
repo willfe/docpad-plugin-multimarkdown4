@@ -1,8 +1,8 @@
 {
-	"name": "docpad-plugin-multimarkdown",
-	"version": "2.0.2",
-	"description": "MultiMarkdown rendering for DocPad, using node-multimarkdown",
-	"homepage": "https://github.com/takitapart/docpad-plugin-multimarkdown",
+	"name": "docpad-plugin-multimarkdown-4",
+	"version": "4.4.2",
+	"description": "MultiMarkdown 4.x rendering for DocPad, using node-mmd",
+	"homepage": "https://github.com/willfe/docpad-plugin-multimarkdown-4",
     "keywords": [
         "docpad",
         "docpad-plugin",
@@ -10,27 +10,28 @@
         "markup",
         "multimarkdown"
     ],
-    "author": "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)",
+    "author": "William Ferrell <willfe@gmail.com> (https://github.com/willfe)",
     "maintainers": [
-        "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)"
+        "William Ferrell <willfe@gmail.com> (https://github.com/willfe)"
     ],
     "contributors": [
         "Bob VanderClay <bob@vanderclay.net> (https://github.com/takitapart)",
-        "Eduán Lávaque <eduanlavaque+git@gmail.com> (https://github.com/Greduan)"
+        "Eduán Lávaque <eduanlavaque+git@gmail.com> (https://github.com/Greduan)",
+        "William Ferrell <willfe@gmail.com> (https://github.com/willfe)"
     ],
     "bugs": {
-        "url": "https://github.com/takitapart/docpad-plugin-multimarkdown/issues"
+        "url": "https://github.com/willfe/docpad-plugin-multimarkdown-4/issues"
     },
     "repository" : {
         "type": "git",
-        "url": "http://github.com/takitapart/docpad-plugin-multimarkdown.git"
+        "url": "http://github.com/willfe/docpad-plugin-multimarkdown-4.git"
     },
 	"engines" : {
 		"node": ">=0.4",
 		"docpad": "6.x"
 	},
 	"dependencies": {
-        "mmd": "~4.4.x"
+        "mmd": "~4.4.3"
 	},
 	"devDependencies": {
 		"coffee-script": "~1.6.x"
