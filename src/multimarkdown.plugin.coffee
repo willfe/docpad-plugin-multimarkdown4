@@ -3,7 +3,7 @@ module.exports = (BasePlugin) ->
 	# Define Plugin
 	class MultimarkdownPlugin extends BasePlugin
 		# Plugin name
-		name: 'multimarkdown'
+		name: 'multimarkdown4'
 
 		# Plugin configuration
 
@@ -17,7 +17,7 @@ module.exports = (BasePlugin) ->
 			# Check our extensions
 			if inExtension in ['md','markdown'] and outExtension in [null,'html']
 				# Requires
-				multimarkdown = require('multimarkdown')
+				multimarkdown = require('mmd')
 
 				# Render
 				opts.content = multimarkdown.convert(opts.content)

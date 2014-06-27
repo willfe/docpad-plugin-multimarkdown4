@@ -1,8 +1,8 @@
 {
-	"name": "docpad-plugin-multimarkdown-4",
+	"name": "docpad-plugin-multimarkdown4",
 	"version": "2.4.4",
 	"description": "MultiMarkdown 4.x rendering for DocPad, using node-mmd",
-	"homepage": "https://github.com/willfe/docpad-plugin-multimarkdown-4",
+	"homepage": "https://github.com/willfe/docpad-plugin-multimarkdown4",
     "keywords": [
         "docpad",
         "docpad-plugin",
@@ -20,11 +20,11 @@
         "William Ferrell <willfe@gmail.com> (https://github.com/willfe)"
     ],
     "bugs": {
-        "url": "https://github.com/willfe/docpad-plugin-multimarkdown-4/issues"
+        "url": "https://github.com/willfe/docpad-plugin-multimarkdown4/issues"
     },
     "repository" : {
         "type": "git",
-        "url": "http://github.com/willfe/docpad-plugin-multimarkdown-4.git"
+        "url": "http://github.com/willfe/docpad-plugin-multimarkdown4.git"
     },
 	"engines" : {
 		"node": ">=0.4",
