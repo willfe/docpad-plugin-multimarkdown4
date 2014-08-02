@@ -1,6 +1,6 @@
 {
 	"name": "docpad-plugin-multimarkdown4",
-	"version": "2.4.4",
+	"version": "2.4.5",
 	"description": "MultiMarkdown 4.x rendering for DocPad, using node-mmd",
 	"homepage": "https://github.com/willfe/docpad-plugin-multimarkdown4",
     "keywords": [

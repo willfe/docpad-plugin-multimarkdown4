@@ -12,12 +12,12 @@ Convention:  `.html.md|markdown`
 Install the module via _npm_:
 
 ```
-npm install --save docpad-plugin-multimarkdown
+npm install --save docpad-plugin-multimarkdown4
 ```
 
 **Note:** When installing on some platforms, it may be necessary to compile
 MultiMarkdown with the -fPIC flag. If the above command fails, try the
 following command instead:
 
-    CFLAGS=-fPIC npm install --save docpad-plugin-multimarkdown
+    CFLAGS=-fPIC npm install --save docpad-plugin-multimarkdown4
 
